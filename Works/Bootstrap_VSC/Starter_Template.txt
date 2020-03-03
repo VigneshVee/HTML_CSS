@@ -1,0 +1,20 @@
+var movieObject = {
+	movie : [
+	{title : "Frozen", rating : "4.5 stars", hasWatched : true},
+	{title : "Dragons", rating : "4.6 stars", hasWatched : false},
+	{title : "Pirates Of The Caribbean", rating : "5 stars", hasWatched : true},
+	]
+};
+
+movieObject.forEach(function(movie){
+var result = "You have ";
+if(movie.hasWatched){
+result += "watched ";
+} else {
+result += "not watched ";
+}
+result += "\""+movie.title+"\"-";
+result += movie.rating;
+console.log(result);
+});
+

@@ -1,0 +1,8 @@
+#header{
+    background: url(Images/brick.jpg) center center / cover no-repeat;
+    /* background: url(Images/brick.jpg) horizantal vertical / cover no-repeat; */
+}
+.card-image-top{
+    width: 100%;
+    height: 300px; 
+}
